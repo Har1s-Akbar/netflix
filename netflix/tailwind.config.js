@@ -4,7 +4,15 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'home-picture': "url('./assets/netflix.jpg')",
+        'logo': "url('./assets/logo.png')",
+      },
+      blur:{
+        sm:"2px"
+      }
+    },
   },
   plugins: [],
 }

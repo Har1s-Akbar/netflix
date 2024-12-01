@@ -1,11 +1,10 @@
-import { useState } from 'react'
+import {HomePage, NavBar} from './componenets/index.js'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <main className=''>
-      <p className='text-4xl'>Hello</p>
+      <NavBar/>
+      <HomePage/>
     </main>
   )
 }
